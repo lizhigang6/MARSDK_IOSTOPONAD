@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MARSDK_IOSTOPONAD_Tests' do
+  pod 'MARSDK_IOSTOPONAD', :path => '../'
+  
+  
+end
