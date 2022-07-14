@@ -43,6 +43,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
                  native_bannerId:(NSString *)native_bannerId
                  native_plaqueId:(NSString *)native_plaqueId
                   native_patchId:(NSString *)native_patchId
+                        showtime:(NSString *)showtime
                        spreadOut:(NSString *)spreadOut
                       DEBUGMODEL:(NSString *)DEBUGMODEL;
 
@@ -65,6 +66,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 @property (nonatomic, copy, readonly) NSString *native_bannerId;
 @property (nonatomic, copy, readonly) NSString *native_plaqueId;
 @property (nonatomic, copy, readonly) NSString *native_patchId;
+@property (nonatomic, copy, readonly) NSString *showtime;
 
 @property (nonatomic, copy, readonly) NSString *spreadOut;
 
