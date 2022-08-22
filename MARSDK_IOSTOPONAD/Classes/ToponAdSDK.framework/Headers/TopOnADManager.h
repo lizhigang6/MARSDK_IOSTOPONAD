@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 + (instancetype)managerWithAppID:(NSString *)appID
                           appKey:(NSString *)appKey
-                    rewardedKey:(NSString *)rewardedKey
+                     rewardedKey:(NSString *)rewardedKey
                  interstitialKey:(NSString *)interstitialKey
                        splashKey:(NSString *)splashKey
                        bannerKey:(NSString *)bannerKey
@@ -44,8 +44,12 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
                  native_plaqueId:(NSString *)native_plaqueId
                   native_patchId:(NSString *)native_patchId
                         showtime:(NSString *)showtime
+                  bidding_enable:(NSString *)bidding_enable
                        spreadOut:(NSString *)spreadOut
                       DEBUGMODEL:(NSString *)DEBUGMODEL;
+
+
+
 
 @property (nonatomic, copy, readonly) NSString *appID;
 @property (nonatomic, copy, readonly) NSString *appKey;
@@ -104,6 +108,9 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 - (void)showInterstitialWithScene:(NSString *)scene closeHandler:(void(^)(void))closeHandler;
 
 - (void)showRewardedWithCloseHandler:(void(^)(BOOL rewarded))closeHandler;
+
+- (void)showSpecialRewardAd;
+
 - (void)showRewardedWithScene:(NSString *)scene closeHandler:(void(^)(BOOL rewarded))closeHandler;
 
 - (BOOL)isReadyByType:(TopOnADType)type;
@@ -148,6 +155,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 
 -(void)handlerTopOnRewardedDelegate;
+
 -(void)readycache;
 
 

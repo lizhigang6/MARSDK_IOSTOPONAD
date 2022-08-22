@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_IOSTOPONAD'
-  s.version          = '1.0.0'
+  s.version          = '2.0'
   s.summary          = '广告渠道配合marsdk 使用'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -14,6 +14,9 @@ s.platform     = :ios
 s.platform     = :ios, "10.0" #iOS 支持的最低级别,这里最低9.0
 s.vendored_libraries =  'MARSDK_IOSTOPONAD/SDK/libMARSDK_IOSTOPONAD.a'
 s.vendored_frameworks  = 'MARSDK_IOSTOPONAD/Classes/*.framework' 
+s.resource_bundles = {
+     'toponBundle' => ['MARSDK_IOSTOPONAD/Assets/*']
+ }
 #s.frameworks = "AVFoundation","AdSupport","CoreLocation","CoreMedia","CoreMotion","CoreTelephony","JavaScriptCore","MobileCoreServices","SafariServices","StoreKit","SystemConfiguration"
 #s.ios.library = "z","xml2","sqlite3","resolv.9","c++","bz2","c++abi"  
 # s.dependency 'AnyThinkiOS','~> 5.9.61'
