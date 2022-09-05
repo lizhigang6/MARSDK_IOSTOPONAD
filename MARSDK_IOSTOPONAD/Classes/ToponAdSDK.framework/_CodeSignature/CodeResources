@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		FGqth5xrwDSx7eeFgwf3pS4VsaU=
-		</data>
 		<key>Headers/TopOnADManager.h</key>
 		<data>
 		9bvMY3M3kJF6aBcDg4mhbf+fyWc=
@@ -18,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		edj5R4epPuUnqt3TjuMt5OMBlEI=
+		WxpxccvP9FZGJlzFvWBR+jA3ltM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
