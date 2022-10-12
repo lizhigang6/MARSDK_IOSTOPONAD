@@ -87,6 +87,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 + (instancetype)manager;
 
+- (void)NetworkInspection;
 
 - (void)showBanner;
 
