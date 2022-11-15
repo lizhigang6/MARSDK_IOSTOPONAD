@@ -43,6 +43,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
                  native_bannerId:(NSString *)native_bannerId
                  native_plaqueId:(NSString *)native_plaqueId
                   native_patchId:(NSString *)native_patchId
+                        float_Id:(NSString *)float_Id
                         showtime:(NSString *)showtime
                   bidding_enable:(NSString *)bidding_enable
                        spreadOut:(NSString *)spreadOut
@@ -70,6 +71,8 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 @property (nonatomic, copy, readonly) NSString *native_bannerId;
 @property (nonatomic, copy, readonly) NSString *native_plaqueId;
 @property (nonatomic, copy, readonly) NSString *native_patchId;
+@property (nonatomic, copy, readonly) NSString *float_Id;
+
 @property (nonatomic, copy, readonly) NSString *showtime;
 
 @property (nonatomic, copy, readonly) NSString *spreadOut;
@@ -99,9 +102,13 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 - (void)showSplash;
 
-- (void)showNativeAD;
+- (void)showPatchAD;
 
 - (void)hideNativePatch;
+//   显示悬浮广告
+-(void)showNativeAD:(CGPoint)Point;
+//   隐藏悬浮广告
+- (void) hideFloatAd;
 
 
 
@@ -155,10 +162,11 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 - (instancetype)init NS_UNAVAILABLE;
 
 
--(void)handlerTopOnRewardedDelegate;
 
 -(void)readycache;
+-(void)handlerTopOnRewardedDelegate;
 
+-(UIViewController *)getCurrentVC;
 
 @end
 

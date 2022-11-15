@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TopOnADManager.h</key>
 		<data>
-		0gFbTc9DuSTKegGVU+Q+TesUB38=
+		sOtTHkrVm2R4fLXYmSaKFr1rLtM=
 		</data>
 		<key>Headers/ToponAdSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GLyWgL8vIAYlLcYBEIPRPLmUu9Q=
+		PjRJMflHxfv7e/lVcuZTA2dYUok=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -28,6 +28,18 @@
 		<data>
 		SBMasrCcCgDMkFRxEz0on+fPrNo=
 		</data>
+		<key>toponBundle.bundle/float_back.png</key>
+		<data>
+		KiAH/Q7DTSvK4GuxLpPIhF+RNsI=
+		</data>
+		<key>toponBundle.bundle/float_close.png</key>
+		<data>
+		npBfCH1EWLw/NPH3P/+OAj3fHV8=
+		</data>
+		<key>toponBundle.bundle/float_down.png</key>
+		<data>
+		AkJXgUP0nlrNTgyupJg5f/7T0kg=
+		</data>
 		<key>toponBundle.bundle/nativebackimage.png</key>
 		<data>
 		48obisgI5zl2Aj0NkZzPNGVoMVY=
@@ -39,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0gFbTc9DuSTKegGVU+Q+TesUB38=
+			sOtTHkrVm2R4fLXYmSaKFr1rLtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKAS8FnDZdSNaOz1PKMfC9KHbf4Ioj65jx5o997Jw94=
+			gjS+Vzos2JIzR93uTSkkN2QdMi9hv23GEN/YD2aq2T4=
 			</data>
 		</dict>
 		<key>Headers/ToponAdSDK.h</key>
@@ -88,6 +100,39 @@
 			<key>hash2</key>
 			<data>
 			FpJNp7rB1ORe3nbAZSiY5ZF1qEQHcOH9+e+AXcZJI+8=
+			</data>
+		</dict>
+		<key>toponBundle.bundle/float_back.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KiAH/Q7DTSvK4GuxLpPIhF+RNsI=
+			</data>
+			<key>hash2</key>
+			<data>
+			OkFXxIx5x0vawaMhk4Mvus6J21g2LjxmnEqMw+LWr6M=
+			</data>
+		</dict>
+		<key>toponBundle.bundle/float_close.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			npBfCH1EWLw/NPH3P/+OAj3fHV8=
+			</data>
+			<key>hash2</key>
+			<data>
+			w5vAQCpWucOacKBqFT9e7E6jNkfsbZxgmdYxuOQQVlg=
+			</data>
+		</dict>
+		<key>toponBundle.bundle/float_down.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AkJXgUP0nlrNTgyupJg5f/7T0kg=
+			</data>
+			<key>hash2</key>
+			<data>
+			zwBWo4d0DF8o3QoWroVlb+HjX+g1WXYA66D1o+1CM50=
 			</data>
 		</dict>
 		<key>toponBundle.bundle/nativebackimage.png</key>
