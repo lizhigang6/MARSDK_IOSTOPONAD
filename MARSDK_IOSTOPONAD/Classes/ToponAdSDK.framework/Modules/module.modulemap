@@ -1,6 +1,0 @@
-framework module ToponAdSDK {
-  umbrella header "ToponAdSDK.h"
-
-  export *
-  module * { export * }
-}
