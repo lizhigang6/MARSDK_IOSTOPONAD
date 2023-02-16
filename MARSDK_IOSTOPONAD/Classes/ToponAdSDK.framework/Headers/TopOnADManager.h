@@ -77,6 +77,10 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 @property (nonatomic, copy, readonly) NSString *spreadOut;
 
+@property (nonatomic,strong) NSString *inters_shake;
+@property (nonatomic,strong) NSString *splash_shake;
+
+
 
 
 
@@ -87,7 +91,8 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 @property id<MARAdNativeDelegate> Nativedelegate;
 
 
-
+///  获取MARAction的单例
++(instancetype) sharedInstance;
 + (instancetype)manager;
 
 - (void)NetworkInspection;
@@ -121,6 +126,8 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 - (void)showRewardedWithScene:(NSString *)scene closeHandler:(void(^)(BOOL rewarded))closeHandler;
 
 - (BOOL)isReadyByType:(TopOnADType)type;
+
+-(BOOL) adControlSwitch:(NSString *)AdID;
 
 @property (nonatomic, copy) void(^rewardedVideoDidClick)(NSString *placementID, NSDictionary *extra);
 @property (nonatomic, copy) void(^rewardedVideoDidClose)(NSString *placementID, BOOL rewarded, NSDictionary *extra);
