@@ -119,6 +119,8 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 - (void)showInterstitialWithScene:(NSString *)scene closeHandler:(void(^)(void))closeHandler;
 
+- (void)showRewardedWithscene:(NSString *)scene closeHandler:(void(^)(BOOL rewarded))closeHandler;
+
 - (void)showRewardedWithCloseHandler:(void(^)(BOOL rewarded))closeHandler;
 
 - (void)showSpecialRewardAd;
