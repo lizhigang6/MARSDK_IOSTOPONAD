@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_IOSTOPONAD'
-  s.version          = '5.1.0'
+  s.version          = '5.2.0'
   s.summary          = '广告渠道配合marsdk 使用'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -13,7 +13,7 @@ s.source           = { :git => 'https://github.com/lizhigang6/MARSDK_IOSTOPONAD.
 s.platform     = :ios
 s.platform     = :ios, "10.0" #iOS 支持的最低级别,这里最低9.0
 s.vendored_libraries =  'MARSDK_IOSTOPONAD/SDK/libMARSDK_IOSTOPONAD.a'
-s.vendored_frameworks  = 'MARSDK_IOSTOPONAD/Classes/*.framework' 
+s.vendored_frameworks  = 'MARSDK_IOSTOPONAD/Classes/*' 
 s.resource_bundles = {
      'toponBundle' => ['MARSDK_IOSTOPONAD/Assets/*']
  }
