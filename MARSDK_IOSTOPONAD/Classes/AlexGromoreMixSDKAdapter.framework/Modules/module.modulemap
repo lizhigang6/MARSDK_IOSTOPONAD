@@ -1,0 +1,6 @@
+framework module AlexGromoreMixSDKAdapter {
+  umbrella header "AlexGromoreMixSDKAdapter.h"
+
+  export *
+  module * { export * }
+}
