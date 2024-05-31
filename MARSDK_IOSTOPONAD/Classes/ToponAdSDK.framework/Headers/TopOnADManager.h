@@ -55,7 +55,6 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 @property (nonatomic, copy, readonly) NSString *appID;
 @property (nonatomic, copy, readonly) NSString *appKey;
 @property (nonatomic, copy, readonly) NSString *rewardedKey;
-@property (nonatomic, copy, readonly) NSString *interstitialKey;
 @property (nonatomic, copy, readonly) NSString *splashKey;
 @property (nonatomic, copy, readonly) NSString *bannerKey;
 
@@ -68,8 +67,6 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 
 @property (nonatomic, copy, readonly) NSString *native_splashId;
-@property (nonatomic, copy, readonly) NSString *native_bannerId;
-@property (nonatomic, copy, readonly) NSString *native_plaqueId;
 @property (nonatomic, copy, readonly) NSString *native_patchId;
 @property (nonatomic, copy, readonly) NSString *float_Id;
 
@@ -81,6 +78,19 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 @property (nonatomic,strong) NSString *splash_shake;
 
 
+//是否正在播放广告 （插屏、开屏、激励）
+@property (assign, nonatomic) BOOL  isAdsBeingDisplayed;
+
+
+
+//是否正在播放广告  贴片
+@property (assign, nonatomic) BOOL  isShowPatchAD;
+
+//是否正在播放广告 插屏
+@property (assign, nonatomic) BOOL  isShowPlaqueAD;
+
+//是否正在播放广告 激励
+@property (assign, nonatomic) BOOL  isShowIncentiveAD;
 
 
 
@@ -126,7 +136,6 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 - (void)showSpecialRewardAd;
 
 - (void)showRewardedWithScene:(NSString *)scene closeHandler:(void(^)(BOOL rewarded))closeHandler;
-
 - (BOOL)isReadyByType:(TopOnADType)type;
 
 -(BOOL) adControlSwitch:(NSString *)AdID;
@@ -175,6 +184,12 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 -(void)handlerTopOnRewardedDelegate;
 
 -(UIViewController *)getCurrentVC;
+
+-(void)clickCallback:(NSDictionary *)dict type:(NSString *)type;
+-(void)trackAd:(NSString *)type  adType:(NSString *)adType   adDict:(NSDictionary *)adDict;
+-(void)userDfinedEvents:(NSString *)adId type:(NSString *)type;
+-(void)clickAdvertising:(NSString *)adId adPlatform:(NSString *)adPlatform;
+-(void)displayAvertising:(NSString *)adId  adPlatform:(NSString *)adPlatform isSuccess:(NSString *)isSuccess;
 
 @end
 
