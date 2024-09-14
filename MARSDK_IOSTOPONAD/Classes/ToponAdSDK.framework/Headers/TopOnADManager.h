@@ -54,7 +54,7 @@ typedef NS_ENUM(NSInteger, TopOnADType) {
 
 @property (nonatomic, copy, readonly) NSString *appID;
 @property (nonatomic, copy, readonly) NSString *appKey;
-@property (nonatomic, copy, readonly) NSString *rewardedKey;
+@property (nonatomic, copy, readonly) NSArray *rewardedArray;
 @property (nonatomic, copy, readonly) NSString *splashKey;
 @property (nonatomic, copy, readonly) NSString *bannerKey;
 
