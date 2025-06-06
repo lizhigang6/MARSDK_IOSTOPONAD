@@ -4,6 +4,50 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/MARSDKCore.framework/Info.plist</key>
+		<data>
+		opYL+TadFdOJSvX0EhPlKcyCtdQ=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/MARSDKCore</key>
+		<data>
+		14y3eG2hphnt0RRxfKJaaL6bUOM=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Z1azxagO1dd7j+JAy/sr8mhYYu4=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gaemTile_h.png</key>
+		<data>
+		jnBR7deGy3CuewpRAAlMKKmvPgo=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gaemTile_w.png</key>
+		<data>
+		sFPHvX7N24bSeAL6+PuYcadvmzM=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameBackground_h.png</key>
+		<data>
+		oAuEedQ/z6lgMB+oyWt5ps5rtT4=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameBackground_w.png</key>
+		<data>
+		14m2las9BEevB9vVbZVS8m96/mk=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameCheckout_h.png</key>
+		<data>
+		fdasLnOqGxxqh4PiFrDSZkoS0M4=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameCheckout_w.png</key>
+		<data>
+		Zsh36GPRYVkkki1y/KwlmHCZAs4=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameClose_h.png</key>
+		<data>
+		eQNHFi7nEBXBoRdgiUztVOYs0ag=
+		</data>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameClose_w.png</key>
+		<data>
+		oCFCqqK7RUrfDXemip+GMuaEjA0=
+		</data>
 		<key>Headers/TopOnADManager.h</key>
 		<data>
 		AtLlN5zM6CPp/sdudMXOTvHN8GA=
@@ -14,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CB7IP3bp7EltlqV+q3Kj9PmK5zU=
+		c4MhvxTRKcW9pO1t1u88rOIkHvo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,6 +99,127 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/MARSDKCore.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opYL+TadFdOJSvX0EhPlKcyCtdQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			gqTvpz6gv8/etrfPyObG2i5QUroKS+N5OO+TwChxNAw=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/MARSDKCore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			14y3eG2hphnt0RRxfKJaaL6bUOM=
+			</data>
+			<key>hash2</key>
+			<data>
+			l1jTKLVTARpv5ib5K+3JIi3soT+LUAQn4ApEsNYayjo=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z1azxagO1dd7j+JAy/sr8mhYYu4=
+			</data>
+			<key>hash2</key>
+			<data>
+			zRG8xjyU3MBVdATbpgw4HeJzY5FRaj3NLIKwGEqYr2I=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gaemTile_h.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jnBR7deGy3CuewpRAAlMKKmvPgo=
+			</data>
+			<key>hash2</key>
+			<data>
+			xKxMAdBSDcz4IEYPIsITBVRw7DIYW6TWOfcBbKXqhNE=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gaemTile_w.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sFPHvX7N24bSeAL6+PuYcadvmzM=
+			</data>
+			<key>hash2</key>
+			<data>
+			G36K87i4l5BiRd+FFq9eXXgPQWXTYy/DCdaKPmp/zv4=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameBackground_h.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oAuEedQ/z6lgMB+oyWt5ps5rtT4=
+			</data>
+			<key>hash2</key>
+			<data>
+			VnekFR9DWVj6MCL8KSUYMaPexXLznoPtSgU3wq3QY3c=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameBackground_w.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			14m2las9BEevB9vVbZVS8m96/mk=
+			</data>
+			<key>hash2</key>
+			<data>
+			dAtVqZTQUuNGBZZZFPo9wf0wxWH4p1L27mgPcEpxTQA=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameCheckout_h.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fdasLnOqGxxqh4PiFrDSZkoS0M4=
+			</data>
+			<key>hash2</key>
+			<data>
+			vglUYpOt7KgMa7Zb2940qXYKTxztWV2xeHmbzEWMzR8=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameCheckout_w.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zsh36GPRYVkkki1y/KwlmHCZAs4=
+			</data>
+			<key>hash2</key>
+			<data>
+			UE+88pzPF3xLCXXcAAT0BqdIjyuvlOm0cfmql5/WL0Y=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameClose_h.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eQNHFi7nEBXBoRdgiUztVOYs0ag=
+			</data>
+			<key>hash2</key>
+			<data>
+			SCTCU8jMD8JkO+J5KzbNukbprg+S14I9WNM1lRXm16c=
+			</data>
+		</dict>
+		<key>Frameworks/MARSDKCore.framework/mrasdk.bundle/gameClose_w.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oCFCqqK7RUrfDXemip+GMuaEjA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			MzMVMUTFIu9+dsktpmLnmdd80RGtEPODudCknXhTk0w=
+			</data>
+		</dict>
 		<key>Headers/TopOnADManager.h</key>
 		<dict>
 			<key>hash</key>
